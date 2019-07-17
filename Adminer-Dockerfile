@@ -1,4 +1,4 @@
-FROM adminer
+FROM adminer:fastcgi
 
 USER root
 RUN apk add --no-cache --virtual .php-ext-deps \
